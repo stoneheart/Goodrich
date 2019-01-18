@@ -3,14 +3,14 @@
 #    File Name:  R1_1.py
 #    Created By: Kun Zheng (kz9892@gmail.com)
 #    Created On: 2019-01-18
-#    Last Modified: 2019-01-18 15:16:44
+#    Last Modified: 2019-01-18 15:24:47
 #
 #    Description:
 #
 
 def is_multiple(n, m):
-    """Take interger values n, m and returns True
-    if n is a multiple of m and False otherwise
+    """Take interger values n and m
+    Returns True if n is a multiple of m and False otherwise
 
     :n: <int>
     :m: <int>
