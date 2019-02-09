@@ -68,6 +68,7 @@ class TicTacToe:
 
 if __name__ == '__main__':
   game = TicTacToe()
+  print(game)
   # X moves:            # O moves:
   game.mark(1, 1);      game.mark(0, 2)
   game.mark(2, 2);      game.mark(0, 0)
