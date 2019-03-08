@@ -21,6 +21,8 @@
 
 """Basic example of an adapter class to provide a stack interface to Python's list."""
 
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from exceptions import Empty
 
 class ArrayStack:

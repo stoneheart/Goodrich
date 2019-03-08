@@ -19,7 +19,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from .doubly_linked_base import _DoublyLinkedBase
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from ch07.doubly_linked_base import _DoublyLinkedBase
 
 class PositionalList(_DoublyLinkedBase):
   """A sequential container of elements allowing positional access."""

@@ -3,11 +3,13 @@
 #    File Name:  array_deque.py
 #    Created By: Kun Zheng (kz9892@gmail.com)
 #    Created On: 2019-02-11
-#    Last Modified: 2019-02-11 15:23:34
+#    Last Modified: 2019-02-12 10:50:56
 #
 #    Description:
 #
 
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from exceptions import Empty
 
 class ArrayDeque:
