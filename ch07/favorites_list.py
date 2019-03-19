@@ -21,7 +21,7 @@
 
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from ch07.positional_list import PositionalList
+from ch07.positional_list import PositionalList #noqa
 
 class FavoritesList:
   """List of elements ordered from most frequently accessed to least."""
