@@ -19,7 +19,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from .positional_list import PositionalList
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from ch07.positional_list import PositionalList
 
 class FavoritesList:
   """List of elements ordered from most frequently accessed to least."""
@@ -96,4 +98,5 @@ if __name__ == '__main__':
   for c in 'hello. this is a test of mtf':        # well, not the mtf part...
     fav.access(c)
     k = min(5, len(fav))
-    print('Top {0}) {1:25} {2}'.format(k, [x for x in fav.top(k)], fav))
+    print('Top {0}) {1:25} {2}'.format(k, str([x for x in fav.top(k)]), fav))
+    #print('Top {0}) {1:25} {2}'.format(k, [x for x in fav.top(k)], fav))
