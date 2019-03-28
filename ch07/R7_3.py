@@ -62,4 +62,4 @@ if __name__ == '__main__':
     llist.push(2)
     llist.push(1)
     print(llist)
-    print('Count of nodes is :', llist.getCount())
+    print('Count of nodes is:', llist.getCount())
