@@ -34,7 +34,7 @@ class LinkedList:
 
     # recursively, given 'node' as starting node.
     def getCountRec(self, node):
-        if (not node):  # Base case
+        if not node:  # Base case
             return 0
         else:
             return 1 + self.getCountRec(node.next)
