@@ -34,7 +34,7 @@ class LinkedList:
 
     # recursively, given 'node' as starting node.
     def getCountRec(self, node):
-        if not node:  # Base case
+        if node is None:  # Base case
             return 0
         else:
             return 1 + self.getCountRec(node.next)
@@ -52,7 +52,7 @@ class LinkedList:
             cursor = cursor.next
 
     def __repr__(self):
-        return '->'.join('{0}'.format(i) for i in self)
+        return '->'.join([str(i) for i in self] + ['NULL'])
 
 if __name__ == '__main__':
     llist = LinkedList()
@@ -61,5 +61,5 @@ if __name__ == '__main__':
     llist.push(1)
     llist.push(2)
     llist.push(1)
-    print('Count of nodes is :', llist.getCount())
     print(llist)
+    print('Count of nodes is :', llist.getCount())
