@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/ch07/favorites_list.py" line="14" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935116c3-8948-45a7-b6e6-074dbcd44365" name="Default Changelist" comment="">
+    <list default="true" id="935116c3-8948-45a7-b6e6-074dbcd44365" name="Default Changelist" comment="work on ch08&#10;&#10;begin ch08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +21,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch08/euler_tour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113" />
+            <state relative-caret-position="1290">
+              <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch08/linked_binary_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch08/expression_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1780">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -49,6 +69,7 @@
         <option value="$PROJECT_DIR$/ch07/favorites_list.py" />
         <option value="$PROJECT_DIR$/ch07/favorites_list_mtf.py" />
         <option value="$PROJECT_DIR$/ch07/R7_3.py" />
+        <option value="$PROJECT_DIR$/ch07/circular_queue.py" />
       </list>
     </option>
   </component>
@@ -71,6 +92,15 @@
               <item name="Goodrich" type="b2602c69:ProjectViewProjectNode" />
               <item name="Goodrich" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Goodrich" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Goodrich" type="462c0819:PsiDirectoryNode" />
+              <item name="ch08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Goodrich" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -81,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.R7_3">
+  <component name="RunManager" selected="Python.expression_tree">
     <configuration name="R7_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Goodrich" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="favorites_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="array_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Goodrich" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,53 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="ch07.favorites_list" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="favorites_list_mtf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Goodrich" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="ch07.favorites_list_mtf" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="positional_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Goodrich" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/positional_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/array_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,18 +168,60 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Goodrich" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="Goodrich.ch08.binary_tree" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="expression_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Goodrich" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="Goodrich.ch08.expression_tree" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.favorites_list" />
-      <item itemvalue="Python.favorites_list_mtf" />
-      <item itemvalue="Python.positional_list" />
       <item itemvalue="Python.R7_3" />
+      <item itemvalue="Python.array_stack" />
+      <item itemvalue="Python.binary_tree" />
+      <item itemvalue="Python.expression_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.expression_tree" />
+        <item itemvalue="Python.array_stack" />
         <item itemvalue="Python.R7_3" />
-        <item itemvalue="Python.favorites_list_mtf" />
-        <item itemvalue="Python.favorites_list" />
-        <item itemvalue="Python.positional_list" />
+        <item itemvalue="Python.binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553795407556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="work on ch08&#10;&#10;begin ch08">
+      <created>1553810513621</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553810513621</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -270,12 +307,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="124" y="51" width="300" height="831" id="Project" order="0" visible="true" weight="0.17829457" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" x="124" y="51" width="300" height="831" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.17829457" />
+      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.17829457" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.4060241" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.39759037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,13 +326,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working on Ch07" />
     <MESSAGE value="work on ch07&#10;&#10;fix import" />
     <MESSAGE value="work on ch07&#10;&#10;update import" />
     <MESSAGE value="work on ch07&#10;&#10;complete exercise R-7.3" />
     <MESSAGE value="work on ch07&#10;&#10;update exercise R-7.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on ch07&#10;&#10;update exercise R-7.3" />
+    <MESSAGE value="work on ch08&#10;&#10;begin ch08" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on ch08&#10;&#10;begin ch08" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
@@ -305,63 +353,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/linked_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ch08/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/linked_stack.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/684720285/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/positional_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="97" selection-end-column="33" />
+        <state relative-caret-position="268">
+          <caret line="774" column="8" selection-start-line="774" selection-start-column="8" selection-end-line="774" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch07/favorites_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="1410">
           <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/R7_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/doubly_linked_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch07/circular_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch07/favorites_list_mtf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="115">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
             <element signature="e#861#902#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch08/euler_tour.py">
+    <entry file="file://$PROJECT_DIR$/ch07/R7_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113" />
+        <state relative-caret-position="-252">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/circular_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/doubly_linked_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/insertion_sort_positional.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/linked_deque.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/linked_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/linked_stack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/positional_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/array_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/reverse_file.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/match_html.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/traversal_examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1582">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="e#861#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/expression_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1780">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/linked_binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/euler_tour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
